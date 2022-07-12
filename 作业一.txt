@@ -1,0 +1,6 @@
+应用程序生命周期：点击程序图标->执行main函数->通过UIApplicationMain函数->初始化UIApplication对象并且为它设置代理对象->UIApplication->程序结束退出
+ViewController生命周期：alloc/init->loadView->viewDidLoad->viewWillAppear->viewDidAppear->viewWillDisappear->viewDidDisappear->dealloc
+常用UI控件：UIScrollView、UITableView、UICollectionView、UIWebView &、WKWebView
+UITableViewDelegate 声明的方法：- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section; 
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section;
+
